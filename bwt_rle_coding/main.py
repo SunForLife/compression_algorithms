@@ -95,7 +95,7 @@ def main():
 
         i = 0
         for loaded_value in loaded_values:
-            # print(i, 'out of', len(loaded_values), 'blocks done')
+            print(i, 'out of', len(loaded_values), 'blocks done')
             i += 1
             data += decode(loaded_value.column, loaded_value.idd)
 
